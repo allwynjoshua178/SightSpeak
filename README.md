@@ -21,3 +21,6 @@ Head Pose Compensation: It automatically estimates head pitch and yaw to offset 
 Implicit Recalibration: As the user types, the system continuously refines its accuracy by assuming that successful key selections mean the user was looking at the center of that key, adapting to drift dynamically.
 4. Smoothing and Jitter Reduction
 Eyes are naturally prone to small, rapid involuntary movements (micro-saccades). The project implements a One-Euro Filter (an adaptive smoothing filter) to stabilize the cursor. This keeps the cursor rock-steady when the user is trying to focus on a single key, but allows it to move quickly and responsively when they look at a different part of the screen.
+
+
+This readme also has sample
